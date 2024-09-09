@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STIFLIX Coding Basics Tutorial</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background: #e0f7fa;
+            color: #333;
+            user-select: none; /* Prevent text selection */
+            -webkit-user-select: none; /* Safari */
+            -moz-user-select: none; /* Firefox */
+            -ms-user-select: none; /* Internet Explorer/Edge */
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #ffffff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            border-radius: 8px;
+        }
+        h1, h2 {
+            color: #00796b;
+        }
+        h2 {
+            border-bottom: 2px solid #00796b;
+            padding-bottom: 5px;
+            margin-top: 20px;
+        }
+        code {
+            display: block;
+            background: #f4f4f4;
+            border: 1px solid #ddd;
+            padding: 10px;
+            margin: 10px 0;
+            overflow-x: auto;
+        }
+        .description {
+            margin-bottom: 20px;
+        }
+        .overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(255, 255, 255, 0.8);
+            display: none; /* Hidden by default */
+            z-index: 9999; /* Ensures it's on top */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2><p><a href ="educ.html">code arrangement</a></p></h2>
+        <h1>STIFLIX: Learn Coding Basics with Confidence</h1>
+
+        <h2>Java HelloWorld Program</h2>
+        <code>
+public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!");
+    }
+}
+        </code>
+        <div class="description">
+            <p><strong>public class HelloWorld { ... }:</strong> Defines a class named HelloWorld.</p>
+            <p><strong>public static void main(String[] args) { ... }:</strong> Entry point of the application.</p>
+            <p><strong>System.out.println("Hello, World!");:</strong> Prints "Hello, World!" to the console.</p>
+        </div>
+
+        <h2>Java Variables and Data Types</h2>
+        <code>
+public class VariablesExample {
+    public static void main(String[] args) {
+        int age = 25;
+        double salary = 55000.50;
+        String name = "Alice";
+        System.out.println("Name: " + name);
+        System.out.println("Age: " + age);
+        System.out.println("Salary: " + salary);
+    }
+}
+        </code>
+        <div class="description">
+            <p><strong>int age = 25;</strong> Declares an integer variable <code>age</code>.</p>
+            <p><strong>double salary = 55000.50;</strong> Declares a double variable <code>salary</code>.</p>
+            <p><strong>String name = "Alice";</strong> Declares a string variable <code>name</code>.</p>
+            <p><strong>System.out.println("Name: " + name);</strong> Prints the value of <code>name</code>.</p>
+        </div>
+
+        <h2>Java Control Flow (If-Else Statement)</h2>
+        <code>
+public class ControlFlowExample {
+    public static void main(String[] args) {
+        int number = 10;
+        if (number > 0) {
+            System.out.println("The number is positive.");
+        } else if (number < 0) {
+            System.out.println("The number is negative.");
+        } else {
+            System.out.println("The number is zero.");
+        }
+    }
+}
+        </code>
+        <div class="description">
+            <p><strong>if (number > 0) { ... }:</strong> Checks if <code>number</code> is greater than 0.</p>
+            <p><strong>else if (number < 0) { ... }:</strong> Checks if <code>number</code> is less than 0.</p>
+            <p><strong>else { ... }:</strong> Executes if <code>number</code> is 0.</p>
+        </div>
+
+        <h2>Java Loops (For Loop)</h2>
+        <code>
+public class LoopExample {
+    public static void main(String[] args) {
+        for (int i = 0; i < 5; i++) {
+            System.out.println("Iteration: " + i);
+        }
+    }
+}
+        </code>
+        <div class="description">
+            <p><strong>for (int i = 0; i &lt; 5; i++) { ... }:</strong> A loop that iterates 5 times.</p>
+            <p><strong>System.out.println("Iteration: " + i);</strong> Prints the value of <code>i</code>.</p>
+        </div>
+
+        <h2>Java Functions (Methods)</h2>
+        <code>
+public class MethodExample {
+    public static void main(String[] args) {
+        int result = addNumbers(5, 7);
+        System.out.println("Sum: " + result);
+    }
+    public static int addNumbers(int a, int b) {
+        return a + b;
+    }
+}
+        </code>
+        <div class="description">
+            <p><strong>public static int addNumbers(int a, int b) { ... }:</strong> Defines a method to add two numbers.</p>
+            <p><strong>return a + b;</strong> Returns the sum of <code>a</code> and <code>b</code>.</p>
+            <p><strong>int result = addNumbers(5, 7);</strong> Calls the method with arguments 5 and 7.</p>
+        </div>
+
+        <h2>Python HelloWorld Program</h2>
+        <code>
+print("Hello, World!")
+        </code>
+        <div class="description">
+            <p><strong>print("Hello, World!"):</strong> Outputs "Hello, World!" to the console.</p>
+        </div>
+
+        <h2>Python Variables and Data Types</h2>
+        <code>
+age = 25
+salary = 55000.50
+name = "Alice"
+print("Name:", name)
+print("Age:", age)
+print("Salary:", salary)
+        </code>
+        <div class="description">
+            <p><strong>age = 25:</strong> Declares a variable <code>age</code> with integer value.</p>
+            <p><strong>salary = 55000.50:</strong> Declares a variable <code>salary</code> with floating-point value.</p>
+            <p><strong>name = "Alice":</strong> Declares a variable <code>name</code> with string value.</p>
+            <p><strong>print("Name:", name):</strong> Outputs the value of <code>name</code>.</p>
+        </div>
+
+        <h2>Python Control Flow (If-Else Statement)</h2>
+        <code>
+number = 10
+if number > 0:
+    print("The number is positive.")
+elif number < 0:
+    print("The number is negative.")
+else:
+    print("The number is zero.")
+        </code>
+        <div class="description">
+            <p><strong>if number > 0:</strong> Checks if <code>number</code> is greater than 0.</p>
+            <p><strong>elif number < 0:</strong> Checks if <code>number</code> is less than 0.</p>
+            <p><strong>else:</strong> Executes if <code>number</code> is 0.</p>
+        </div>
+
+        <h2>Python Loops (For Loop)</h2>
+        <code>
+for i in range(5):
+    print("Iteration:", i)
+        </code>
+        <div class="description">
+            <p><strong>for i in range(5):</strong> Iterates over a range of numbers from 0 to 4.</p>
+            <p><strong>print("Iteration:", i):</strong> Prints the current value of <code>i</code>.</p>
+        </div>
+
+        <h2>Python Functions (Defining and Calling)</h2>
+        <code>
+def add_numbers(a, b):
+    return a + b
+
+result = add_numbers(5, 7)
+print("Sum:", result)
+        </code>
+        <div class="description">
+            <p><strong>def add_numbers(a, b):</strong> Defines a function to add two numbers.</p>
+            <p><strong>return a + b:</strong> Returns the sum of <code>a</code> and <code>b</code>.</p>
+            <p><strong>result = add_numbers(5, 7):</strong> Calls the function with arguments 5 and 7.</p>
+        </div>
+
+        <h2>CSS Basics</h2>
+        <code>
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+        h1 {
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to CSS Basics!</h1>
+        <p>This is a simple example to demonstrate basic CSS styling.</p>
+    </div>
+</body>
+</html>
+        </code>
+        <div class="description">
+            <p><strong>body { ... }:</strong> Sets the font family and background color for the page.</p>
+            <p><strong>h1 { ... }:</strong> Sets the color for <code>h1</code> headings.</p>
+            <p><strong>.container { ... }:</strong> Defines a container with center alignment, background color, padding, rounded corners, and box shadow.</p>
+        </div>
+
+        <h2>C++ HelloWorld Program</h2>
+        <code>
+#include &lt;iostream&gt;
+
+int main() {
+    std::cout &lt;&lt; "Hello, World!" &lt;&lt; std::endl;
+    return 0;
+}
+        </code>
+        <div class="description">
+            <p><strong>#include &lt;iostream&gt;:</strong> Includes the Input/Output stream library.</p>
+            <p><strong>int main() { ... }:</strong> Defines the main function where execution starts.</p>
+            <p><strong>std::cout &lt;&lt; "Hello, World!" &lt;&lt; std::endl;</strong> Outputs "Hello, World!" to the console.</p>
+            <p><strong>return 0;</strong> Indicates successful execution.</p>
+        </div>
+
+        <h2>C++ Variables and Data Types</h2>
+        <code>
+#include &lt;iostream&gt;
+
+int main() {
+    int age = 25;
+    double salary = 55000.50;
+    std::string name = "Alice";
+
+    std::cout &lt;&lt; "Name: " &lt;&lt; name &lt;&lt; std::endl;
+    std::cout &lt;&lt; "Age: " &lt;&lt; age &lt;&lt; std::endl;
+    std::cout &lt;&lt; "Salary: " &lt;&lt; salary &lt;&lt; std::endl;
+
+    return 0;
+}
+        </code>
+        <div class="description">
+            <p><strong>int age = 25;</strong> Declares an integer variable <code>age</code>.</p>
+            <p><strong>double salary = 55000.50;</strong> Declares a double variable <code>salary</code>.</p>
+            <p><strong>std::string name = "Alice";</strong> Declares a string variable <code>name</code>.</p>
+            <p><strong>std::cout &lt;&lt; "Name: " &lt;&lt; name &lt;&lt; std::endl;</strong> Outputs the value of <code>name</code>.</p>
+        </div>
+    </div>
+
+    <div id="overlay" class="overlay"></div>
+
+    <script>
+        document.addEventListener('contextmenu', function(e) {
+            e.preventDefault();
+        });
+
+        document.addEventListener('copy', function(e) {
+            e.preventDefault();
+        });
+
+        document.addEventListener('keydown', function(e) {
+            if (e.ctrlKey && (e.key === 'c' || e.key === 'x' || e.key === 'v')) {
+                e.preventDefault();
+            }
+        });
+
+        document.addEventListener('mousedown', function(e) {
+            if (e.button === 2) { // Right-click
+                document.getElementById('overlay').style.display = 'block';
+            }
+        });
+
+        document.addEventListener('mouseup', function() {
+            document.getElementById('overlay').style.display = 'none';
+        });
+    </script>
+</body>
+</html>
+
+
+                    
